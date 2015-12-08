@@ -22,7 +22,7 @@
 var argscheck = require('cordova/argscheck'),
     exec = require('cordova/exec'),
     FileTransferError = require('./FileTransferError'),
-    ProgressEvent = require('org.apache.cordova.file.ProgressEvent');
+    ProgressEvent = require('cordova-plugin-file.ProgressEvent');
 
 function newProgressEvent(result) {
     var pe = new ProgressEvent();
